@@ -1,0 +1,37 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1529906444817,81,case 1 管理员登录,200,OK,Thread Group 1-1,text,true,,1595,421,1,1,81,0,46
+1529906444917,328,    preposition 1 新增策略基础数据导入——查询所有部门id,200,OK,Thread Group 1-1,text,true,,410,0,1,1,328,0,324
+1529906445248,2,    preposition 2新增策略基础数据导入——查询所有应用id,200,OK,Thread Group 1-1,text,true,,163,0,1,1,2,0,0
+1529906445360,152,    case 5.1.1新建策略_﻿策略名称1,200,OK,Thread Group 1-1,text,true,,523,1442,1,1,152,0,0
+1529906445519,55,    case 5.1.1新建策略_策略名称2,200,OK,Thread Group 1-1,text,true,,523,1439,1,1,55,0,0
+1529906445581,172,    case 5.1.1新建策略_策略名称3,200,OK,Thread Group 1-1,text,true,,523,1439,1,1,171,0,0
+1529906445759,256,    case 5.1.1新建策略_策略名称4,200,OK,Thread Group 1-1,text,true,,523,1439,1,1,256,0,0
+1529906446021,38,    case 5.1.1新建策略_策略名称5,200,OK,Thread Group 1-1,text,true,,523,1439,1,1,38,0,0
+1529906445252,673,func 5.1 新增策略,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,2615,7198,1,1,672,134,0
+1529906446060,33,    case 5.2.1查询策略,200,OK,Thread Group 1-1,text,true,,1634,633,1,1,33,0,0
+1529906446059,33,func 5.2 查询策略事务,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1634,633,1,1,33,2,0
+1529906446095,31,    case 5.3.1.1选择要修改的策略,200,OK,Thread Group 1-1,text,true,,713,582,1,1,31,0,0
+1529906446127,27,    case 5.3.1.2查看修改策略内容,200,OK,Thread Group 1-1,text,true,,626,656,1,1,27,0,0
+1529906446156,28,    case 5.3.1.3修改策略信息put,200,OK,Thread Group 1-1,text,true,,469,907,1,1,28,0,0
+1529906446185,0,JUnit Request,1000,Test successful,Thread Group 1-1,text,true,,0,0,1,1,0,0,0
+1529906446095,86,func 5.3.1策略信息修改,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,1808,2145,1,1,86,4,0
+1529906446186,18,    case 5.3.2.1选择要修改的策略,200,OK,Thread Group 1-1,text,true,,732,582,1,1,18,0,0
+1529906446205,24,    case 5.3.2.2查看修改策略内容,200,OK,Thread Group 1-1,text,true,,645,656,1,1,23,0,0
+1529906446231,37,    case 5.3.2.3修改策略信息put,200,OK,Thread Group 1-1,text,true,,469,1293,1,1,37,0,0
+1529906446185,79,func 5.3.2策略功能配置修改,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,1846,2531,1,1,78,4,0
+1529906446269,17,    case 5.3.3.1选择要修改的策略,200,OK,Thread Group 1-1,text,true,,479,582,1,1,17,0,0
+1529906446287,19,    case 5.3.3.2查看修改策略内容,200,OK,Thread Group 1-1,text,true,,645,656,1,1,19,0,0
+1529906446311,41,    case 5.3.3.3修改策略应用配置put一共4个应用,200,OK,Thread Group 1-1,text,true,,469,806,1,1,40,0,0
+1529906446268,77,func 5.3.3策略应用配置修改,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,1593,2044,1,1,76,7,0
+1529906446353,27,    case 5.3.4.1选择要修改的策略,200,OK,Thread Group 1-1,text,true,,479,582,1,1,27,0,0
+1529906446380,19,    case 5.3.4.2查看修改策略内容,200,OK,Thread Group 1-1,text,true,,645,656,1,1,19,0,0
+1529906446402,33,    case 5.3.4.3修改策略应用配置put一共11个部门,200,OK,Thread Group 1-1,text,true,,469,809,1,1,33,0,0
+1529906446352,79,func 5.3.4策略用户配置修改,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,1593,2047,1,1,79,4,0
+1529906446094,321,func 5.3 修改策略事务——事务结束,200,"Number of samples in transaction : 16, number of failing samples : 0",Thread Group 1-1,,true,,6840,8767,1,1,319,20,0
+1529906446436,27,    case 5.4.1选择要克隆的策略,200,OK,Thread Group 1-1,text,true,,479,582,1,1,27,0,0
+1529906446465,37,    case 5.4.2克隆的策略_${pname},200,OK,Thread Group 1-1,text,true,,469,655,1,1,37,0,0
+1529906446435,64,func 5.4 克隆策略事务,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,948,1237,1,1,64,3,0
+1529906446503,33,    case 5.5.1查询策略,200,OK,Thread Group 1-1,text,true,,1912,669,1,1,33,0,0
+1529906446544,33,    case 5.5.2删除全部策略delete,200,OK,Thread Group 1-1,text,true,,469,902,1,1,33,0,0
+1529906446502,66,func 5.5 删除策略事务,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,2381,1571,1,1,66,10,0
+1529906444917,1487,func 5  策略管理功能模块,200,"Number of samples in transaction : 29, number of failing samples : 0",Thread Group 1-1,,true,,14991,19406,1,1,1484,174,324
